@@ -75,6 +75,15 @@ th, td{
   border-top: 2px solid #000000;
 }
 
+
+td{
+
+}
+
+tr{
+
+}
+
 *:focus{
 border-width: 3px;
 border-style: dashed;
@@ -99,12 +108,13 @@ tr:nth-child(even) {background-color:#d1d1d1;}
 tr:hover {background-color: rgba(126,8,32,0.25)}
 
 footer{
-  width:100%;
   min-height: 75px;
   background:#000000;
-  position: fixed;
+  position: absolute;
+  width:100%;
   bottom: 0;
   left: 0;
-  text-align:center;
+  text-align: center;
   color: #FFFFFF;
 }
+
