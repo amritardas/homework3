@@ -11,7 +11,7 @@ Make sure to learn what the starter code does!!
 @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
 
 body{
-  background-image: url("../images/pigeon-background.jpeg");
+  background-image: url("images/pigeon-background.jpeg");
   background-color: #dddddd;
   background-size: cover;
   background-position: center;
@@ -75,15 +75,6 @@ th, td{
   border-top: 2px solid #000000;
 }
 
-
-td{
-
-}
-
-tr{
-
-}
-
 *:focus{
 border-width: 3px;
 border-style: dashed;
@@ -111,7 +102,7 @@ footer{
   width:100%;
   min-height: 75px;
   background:#000000;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   text-align:center;
